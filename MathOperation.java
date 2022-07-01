@@ -9,17 +9,17 @@ display- to display Result R
 import java.util.Scanner;
 
 public class MathOperation {
-	private int X;
-	private int Y;
+	private int X=40;
+	private int Y=10;
 	private int R;
 	Scanner s=new Scanner(System.in);
-	public void init()
-	{
-		System.out.println("Enter Two Numbers ");
-		 X=s.nextInt();
-		 Y=s.nextInt();
+	//public void init()
+	//{
+		//System.out.println("Enter Two Numbers ");
+		// X=s.nextInt();
+		// Y=s.nextInt();
 		 
-	}
+	//}
 	public void add()
 	{
 	 R=X+Y;
